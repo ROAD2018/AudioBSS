@@ -1,0 +1,5 @@
+#Autosave files
+*.asv
+
+#Audio files in my project
+*.wav
