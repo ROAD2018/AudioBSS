@@ -116,9 +116,13 @@ audio_1 = S(1, :);
 audio_2 = S(2, :);
 audio_3 = S(3, :);
 
-sep_audio1 = audioplayer(audio_1, fs);
-sep_audio2 = audioplayer(audio_2, fs);
-sep_audio3 = audioplayer(audio_3, fs);
+sep_audio_1 = audioplayer(audio_1, fs);
+sep_audio_2 = audioplayer(audio_2, fs);
+sep_audio_3 = audioplayer(audio_3, fs);
+
+audiowrite('sep_audio1.wav', audio_1, fs);
+audiowrite('sep_audio2.wav', audio_2, fs);
+audiowrite('sep_audio3.wav', audio_3, fs);
 
 
 
